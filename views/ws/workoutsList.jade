@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1.
+        Workouts
+    ul
+        each workout in workoutsList
+            li #{workout.title} - #{workout.description}
